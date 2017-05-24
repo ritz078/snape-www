@@ -1,0 +1,27 @@
+{
+  "name": "snape-www",
+  "version": "1.0.0",
+  "description": "Website for snape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritz078/snape-www.git"
+  },
+  "author": "Ritesh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritz078/snape-www/issues"
+  },
+  "homepage": "https://github.com/ritz078/snape-www#readme",
+  "dependencies": {
+    "next": "^2.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
