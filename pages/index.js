@@ -54,7 +54,7 @@ export default class Main extends PureComponent {
           href="https://github.com/ritz078/snape/issues">in issues</a>
         </div>
         <div className="copyright">
-          Made by <a href="https://twitter.com/ritz078">ritz078</a>
+          Made by <a href="https://twitter.com/ritz078">ritz078</a> | Powered by <a href="https://github.com/webtorrent/webtorrent" target="_blank">WebTorrent</a>
         </div>
       </div>
     )
