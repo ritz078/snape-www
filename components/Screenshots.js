@@ -17,7 +17,7 @@ export default function () {
     <div className="wrapper">
       <div className="screenshots">
         {screenshots.map(s => (
-          <div className="demo-card-square mdl-card mdl-shadow--2dp">
+          <div className="demo-card-square mdl-card mdl-shadow--2dp" key={s.id}>
             <div className={`mdl-card__title mdl-card--expand ${s.id}`}>
             </div>
             <div className="mdl-card__supporting-text">
