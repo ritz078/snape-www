@@ -20,12 +20,12 @@ html{
 }
 
 .banner-wrapper > div {
-    padding: 30px;
     background-size: cover;
     min-width: 350px;
 }
 
 .banner-left {
+    padding: 30px;
     background-color: #4285f4;
     flex: 1;
     align-items: center;
@@ -34,9 +34,18 @@ html{
 
 .banner-right {
     flex: 1;
-    background: url('/static/demo.jpg');
-    min-height: 300px;
     background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.banner-right > div {
+    flex: 1;
+    min-height: 300px;
+    background-size: cover;
+    height: 100%;
+    margin-top: 40px;
 }
 
 .snape-details{
@@ -172,29 +181,6 @@ a.mdl-button > i{
     margin: 30px 0;
 }
 
-.demo-card-square > .search {
-    background: url(/static/search.png);
-}
-
-.demo-card-square > .stream {
-    background: url(/static/stream.png);
-}
-
-.demo-card-square > .download-screen {
-    background: url(/static/download.png);
-}
-
-.demo-card-square > .vlc {
-    background: url(/static/vlc.png);
-}
-
-.demo-card-square > .mdl-card__title {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #509af5;
-}
-
 .disclaimer{
     background-color: white;
     text-align: center;
@@ -211,4 +197,17 @@ a.mdl-button > i{
     font-size: 16px;
     text-align: center;
     border-top: 1px solid #eee;
+}
+
+.screenshot-img {
+    flex: 1;
+}
+
+.screenshot-img > div {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #509af5;
 }

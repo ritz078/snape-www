@@ -1,4 +1,5 @@
 import React, {PureComponent} from 'react'
+import {ProgressiveImage} from 'react-progressive-image-loading'
 import Logo from './logo'
 
 export default class Banner extends PureComponent{
@@ -33,7 +34,13 @@ export default class Banner extends PureComponent{
           <div className="version">Version : {version}</div>
         </div>
       </div>
-      <div className="banner-right" />
+      <div className="banner-right" >
+        <ProgressiveImage
+          preview="/static/thumbs/demo.png"
+          src="/static/demo.png"
+          render={(src, style) => <div style={Object.assign(style, { backgroundImage: `url(${src})` })} />}
+        />
+      </div>
     </div>
     )
   }

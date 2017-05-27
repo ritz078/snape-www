@@ -33,6 +33,7 @@
     "preact-compat": "^3.16.0",
     "raw-loader": "^0.5.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-progressive-image-loading": "^3.0.0"
   }
 }
