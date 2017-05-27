@@ -10,6 +10,7 @@ html{
     background: url(/static/background.jpg);
     background-attachment: fixed;
     background-size: cover;
+    min-width: 370px;
 }
 
 .banner-wrapper {
@@ -46,6 +47,7 @@ html{
     background-size: cover;
     height: 100%;
     margin-top: 40px;
+    background-repeat: no-repeat;
 }
 
 .snape-details{
@@ -142,6 +144,12 @@ a.mdl-button > i{
     .steps-wrapper li {
         width: 100%;
         padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .banner-right > div{
+        background-size: contain;
     }
 }
 

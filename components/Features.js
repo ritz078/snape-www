@@ -5,7 +5,7 @@ const features = [{
 }, {
   icon: 'eye',
   title: 'Stream',
-  desc: 'Stream videos, play music, view images instantly. Seeking works even when file is not fully downloaded'
+  desc: 'Stream videos, play music, view images instantly with seeking support.'
 }, {
   icon: 'download',
   title: 'Download Torrents',
