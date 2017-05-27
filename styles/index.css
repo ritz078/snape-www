@@ -10,7 +10,10 @@ html{
     background: url(/static/background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    min-width: 370px;
+}
+
+body {
+    min-width: 320px;
 }
 
 .banner-wrapper {
@@ -22,7 +25,7 @@ html{
 
 .banner-wrapper > div {
     background-size: cover;
-    min-width: 350px;
+    min-width: 320px;
 }
 
 .banner-left {
@@ -43,7 +46,7 @@ html{
 
 .banner-right > div {
     flex: 1;
-    min-height: 300px;
+    min-height: 240px;
     background-size: cover;
     height: 100%;
     margin-top: 40px;

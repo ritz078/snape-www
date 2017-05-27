@@ -10,11 +10,11 @@ export default class Main extends PureComponent {
   static async getInitialProps () {
     const res = await fetch('https://api.github.com/repos/ritz078/snape/releases')
     const releases = await res.json()
-    return {releases}
+    return {version: releases[0].name}
   }
 
   render () {
-    const {releases} = this.props
+    const {version} = this.props
     return (
       <div>
         <Head>
@@ -46,7 +46,7 @@ export default class Main extends PureComponent {
           <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css"/>
         </Head>
         <style dangerouslySetInnerHTML={{__html: stylesheet}} />
-        <Banner releases={releases} />
+        <Banner version={version} />
         <Features />
         <Screenshots />
         <div className="disclaimer">

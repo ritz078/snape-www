@@ -35,5 +35,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-progressive-image-loading": "^3.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0"
   }
 }

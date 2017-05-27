@@ -4,7 +4,7 @@ import Logo from './logo'
 
 export default class Banner extends PureComponent{
   render() {
-    const version = this.props.releases[0].name
+    const {version} = this.props
 
     return (
     <div className="banner-wrapper mdl-button--colored">
