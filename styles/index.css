@@ -38,8 +38,9 @@ html{
 
 .banner-right {
     flex: 1;
-    background: url('/static/demo.png');
+    background: url('/static/demo.jpg');
     min-height: 300px;
+    background-color: #ffffff;
 }
 
 .snape-details{
