@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import stylesheet from 'styles/index.css'
+import stylesheet from 'styles/style.css'
 import fetch from 'isomorphic-unfetch'
 import Head from 'next/head'
 import Banner from '../components/Banner'
@@ -41,9 +41,8 @@ export default class Main extends PureComponent {
           <meta name="msapplication-TileColor" content="#4285f4" />
           <meta name="msapplication-TileImage" content="/static/head/ms-icon-144x144.png" />
           <meta name="theme-color" content="#4285f4" />
-          <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700"/>
+          <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400"/>
           <link rel="stylesheet" href="//code.getmdl.io/1.3.0/material.indigo-blue.min.css"/>
-          <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css"/>
         </Head>
         <style dangerouslySetInnerHTML={{__html: stylesheet}} />
         <Banner version={version} />
