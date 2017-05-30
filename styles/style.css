@@ -1,6 +1,6 @@
 @import "//fonts.googleapis.com/css?family=Roboto:300,400";
+@import "//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css";
 @import "mdl.css";
-@import "icon.css";
 
 * {
     margin: 0;
@@ -104,7 +104,6 @@ body {
 
 a.mdl-button > i{
     line-height: 54px;
-    font-size: 20px;
 }
 
 .strip {
@@ -161,8 +160,8 @@ a.mdl-button > i{
 .steps-wrapper i {
     background-color: rgba(255, 255, 255, 0.10);
     color: white;
-    font-size: 20px;
-    padding: 9px 7px;
+    font-size: 22px;
+    padding: 10px 9px;
 }
 
 .mdl-list__item{

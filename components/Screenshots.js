@@ -11,7 +11,7 @@ const screenshots = [{
   subtext: 'Stream'
 }, {
   id: 'vlc',
-  text: 'If a video format is not supported, you can always stream in on VLC.',
+  text: 'If a video format is not supported, you can always stream it on VLC.',
   subtext: 'play on vlc'
 }]
 

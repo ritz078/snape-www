@@ -7,6 +7,10 @@ const features = [{
   title: 'Stream',
   desc: 'Stream videos, play music, view images instantly with seeking support.'
 }, {
+  icon: 'vlc',
+  title: 'play on VLC',
+  desc: 'If the media format is not supported by snape, you can start streaming on VLC.'
+},{
   icon: 'download',
   title: 'Download Torrents',
   desc: 'Optionally you can download any torrent and stream at the same time.'
