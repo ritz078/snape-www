@@ -32,7 +32,7 @@ export default class Banner extends PureComponent{
               <i className="mdi mdi-github-circle" />
             </a>
           </div>
-          <div className="version">Version : {version}</div>
+          <div className="version">Version : {version} &nbsp;|&nbsp; Found an issue ? : <a className='report-here' href="https://github.com/ritz078/snape/issues">Report here</a></div>
         </div>
       </div>
       <div className="banner-right" >

@@ -98,9 +98,8 @@ body {
 
 .version {
     font-size: 14px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    opacity: 0.5;
 }
 
 a.mdl-button > i{
@@ -229,4 +228,12 @@ a.mdl-button > i{
 
 .screenshots .mdl-button:hover {
     background-color: inherit;
+}
+
+.report-here {
+    color: rgba(255, 255, 255, 0.91);
+}
+
+.report-here:hover {
+    color: #ffffff;
 }
