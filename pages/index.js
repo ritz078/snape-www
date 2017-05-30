@@ -11,7 +11,7 @@ export default class Main extends PureComponent {
   static async getInitialProps () {
     const res = await fetch('https://api.github.com/repos/ritz078/snape/releases')
     const releases = await res.json()
-    return {version: releases && releases[0] && releases[0].name || 'Latest'}
+    return {version: releases && releases[0] && releases[0].name || '0.1.5'}
   }
 
   trackingScript() {
