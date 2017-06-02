@@ -15,6 +15,7 @@ body {
     background: url(/static/background.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-color: #e4a04b;
 }
 
 .banner-wrapper {
