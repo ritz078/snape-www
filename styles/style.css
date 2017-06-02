@@ -15,7 +15,7 @@ body {
     background: url(/static/background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-color: #e4a04b;
+    background-color: #4285f4;
 }
 
 .banner-wrapper {
@@ -52,7 +52,6 @@ body {
     min-height: 240px;
     background-size: cover;
     height: 100%;
-    margin-top: 40px;
     background-repeat: no-repeat;
 }
 
