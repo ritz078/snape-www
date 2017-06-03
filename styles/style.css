@@ -50,9 +50,9 @@ body {
 .banner-right > div {
     flex: 1;
     min-height: 240px;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     height: 100%;
-    margin-top: 40px;
     background-repeat: no-repeat;
 }
 
