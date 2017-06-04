@@ -23,7 +23,7 @@ export default class Banner extends PureComponent{
                className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
               <i className="mdi mdi-apple" />
             </a>
-            <a href{`https://github.com/ritz078/snape/releases/download/v${version}/snape-Setup-${version}.exe`}
+            <a href={`https://github.com/ritz078/snape/releases/download/v${version}/snape-Setup-${version}.exe`}
                className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" >
               <i className="mdi mdi-windows" />
             </a>
