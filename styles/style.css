@@ -18,11 +18,17 @@ body {
     background-color: #4285f4;
 }
 
+.ban {
+    background: linear-gradient(90deg, #4285f4 50%, #ffffff 50%)
+}
+
 .banner-wrapper {
     width: 100%;
     display: flex;
     min-height: 550px;
     flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .banner-wrapper > div {
