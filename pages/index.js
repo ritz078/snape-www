@@ -6,7 +6,6 @@ import isBrowser from 'is-in-browser'
 import Banner from '../components/Banner'
 import Features from '../components/Features'
 import Screenshots from '../components/Screenshots'
-import GitHub from '../components/GithHub'
 
 export default class Main extends PureComponent {
   static async getInitialProps () {
@@ -60,7 +59,6 @@ export default class Main extends PureComponent {
 
         </Head>
         <style dangerouslySetInnerHTML={{__html: stylesheet}} />
-        <GitHub/>
         <Banner version={version} />
         <Features />
         <Screenshots />
